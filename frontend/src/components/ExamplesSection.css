@@ -1,0 +1,115 @@
+/* General Styles */
+.section-sample-sites {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .parent-section-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Categories Filter */
+  .sample-sites-categories {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .sample-sites-categories button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sample-sites-categories button.active,
+  .sample-sites-categories button:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  /* Portfolio Examples Grid */
+  .sample-sites {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .sample-site {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .sample-site:hover {
+    transform: scale(1.05);
+  }
+  
+  .sample-image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .sample-site-details {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .sample-site-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .sample-site-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Loading Spinner */
+  .spinner-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  .spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

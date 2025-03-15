@@ -1,0 +1,97 @@
+/* SitesDashboard.css */
+.container {
+    padding: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .view-toggle {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .view-button {
+    background-color: #f0f0f0;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  
+  .search-input {
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .create-folder-button, .create-site-button {
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-site-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .sites-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  
+  .sites-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .site-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .site-card:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .site-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .site-description {
+    color: #555;
+  }
+  
